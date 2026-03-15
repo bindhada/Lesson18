@@ -7,10 +7,16 @@
 </head>
 <body>
     <h1>Help! Where are my links?!</h1>
-<p>I'm supposed to have three links in this page-- one to the New York Times, one to CNN, and one to the LA Times. But they're all broken!!!</p>
-<a href="https://www.nytimes.com">
-<a herf="http://www.cnn.com">Why is this broken??? :(</a>
-<a href="http://www.latimes.com/" Help this LA Times link is broken!!!></a>
+    <p>I'm supposed to have three links in this page-- one to the New York Times, one to CNN, and one to the LA Times. But they're all broken!!!</p>
+
+    <!-- FIX: <a> tag had no link text and no closing </a> tag — added "New York Times" as the visible text and closed the tag -->
+    <a href="https://www.nytimes.com">New York Times</a>
+
+    <!-- FIX: Attribute was spelled "herf" instead of "href" — a classic typo that makes the link stop working -->
+    <a href="http://www.cnn.com">Why is this broken??? :(</a>
+
+    <!-- FIX: The link text was written inside the opening tag instead of between the opening and closing tags -->
+    <a href="http://www.latimes.com/">Help this LA Times link is broken!!!</a>
 
     
 </body>
